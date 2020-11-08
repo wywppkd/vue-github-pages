@@ -6,12 +6,12 @@ cache: npm
 
 script: npm run build
 
-# 下面是 github pages 专用的命令
 deploy:
 provider: pages
 skip_cleanup: true # 构建完成后不清除
 github_token: $GITHUB_TOKEN
 local_dir: dist
 target_branch: gh-pages # 存放生成站点文件的 branch
+verbose: true
 on:
   branch: master
