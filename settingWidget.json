@@ -1,0 +1,17 @@
+{
+    "text": "条形码组件",
+    "name": "BarCode",
+    "schema": {
+        "title": "条形码组件",
+        "type": "string",
+        "widget": "BarCode"
+    },
+    "setting": {
+        "url": {
+            "title": "url输入框",
+            "placeholder": "//www.taobao.com",
+            "type": "string",
+            "format": "url"
+        }
+    }
+}
